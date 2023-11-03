@@ -1,0 +1,30 @@
+
+.menuBar-links > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  width: 75rem;
+  margin-top: 22px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(223, 223, 223);
+}
+
+.menuBar-links > img {
+  width: 75px;
+  position: absolute;
+  right: 98rem;
+  background-color: rgb(255, 255, 255);
+}
+.menuBar-links a:hover {
+  color: lightslategray;
+  transition: .3s;
+}
+
+
+
+
+
+

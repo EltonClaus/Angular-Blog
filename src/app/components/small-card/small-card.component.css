@@ -1,0 +1,49 @@
+.container-smallCard {
+  border-radius: 30px;
+  background-color: #ecd6fa;
+  width: 48.9rem;
+  height: 19.8rem;
+  margin: 2px;
+  padding: 2px;
+}
+.small-card {
+  margin: 30px;
+  padding: 30px;
+  display: grid;
+  text-align: center;
+  gap: 25px;
+  grid-template-columns:  3fr 3fr 3fr;
+}
+.small-card > p {
+  background-color: #FEF4B1;
+  border-radius: 30px;
+  margin: 2px;
+  padding: 10px;
+  width: 9rem;
+  place-self: center;
+  text-align: center;
+  height: 2.5rem;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+.smallSubTtitle > h3 {
+  display: flex;
+  position: absolute;
+  left: 19rem;
+  bottom: 18rem;
+  text-align: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 1360px ) {
+  .container-smallCard {
+    border: 2px solid burlywood;
+    margin: 2px;
+    padding: 2px;
+    width: 50.6rem;
+    height: 21.4rem;
+    display: flex;
+  }
+}

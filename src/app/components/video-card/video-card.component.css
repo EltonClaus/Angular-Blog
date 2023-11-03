@@ -1,0 +1,26 @@
+
+.container-videoCard {
+  border-radius:  30px;
+  background-color: rgb(248, 225, 211) ;
+  width: 75%;
+  height: 19.7rem;
+}
+
+.videoCard-category > p {
+  margin: 7px;
+  padding: 12px;
+}
+
+
+.videoCard > img {
+  border-radius: 30px;
+  margin: 2px;
+  padding: 8px;
+  width: 25rem;
+  height: 11rem;
+}
+
+.videoCard-title > h3 {
+  margin: 5px;
+  padding: 5px;
+}

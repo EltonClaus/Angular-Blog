@@ -1,0 +1,34 @@
+.container-newCard {
+
+  background-color: rgb(182, 253, 207);
+  border-radius: 30px;
+  width: 100%;
+  height: 40%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+}
+
+.newCard-category {
+  margin: 2px;
+  padding: 2px;
+}
+.newCard-title {
+  margin: 3px;
+  padding: 3px;
+}
+
+.newCard-description {
+  margin: 5px;
+  padding: 5px;
+}
+.newCard-subtitleOne > h3 {
+  margin: 4px;
+  padding: 2px;
+}
+
+.newCard-subtitleTwo > h3 {
+  margin: 4px;
+  padding: 2px;
+}

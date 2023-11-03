@@ -1,0 +1,32 @@
+.container-menu-title{
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: 8px;
+}
+
+.container-menu-title > h1{
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 25px;
+  font-size: 3rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container-menu-title > button{
+  background-color: #EFEFEF;
+  border: none;
+  border-radius: 20px;
+  margin: 12px;
+  margin-right: 45px;
+  padding: 12px;
+  height: 50%;
+  cursor: pointer;
+}
+
+.container-menu-title > button:hover{
+  background-color: #b6b5b5;
+  transition: .3s;
+}
+

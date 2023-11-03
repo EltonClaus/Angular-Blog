@@ -1,0 +1,65 @@
+.containerBlog{
+  background-color: white;
+  border-radius: 30px;
+  margin: 12px;
+  height: 100%;
+}
+
+.articles {
+  margin: 12px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 2;
+}
+
+header {
+  margin: 20px;
+  padding: 15px;
+  height: 80px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.articles-bigCard {
+  margin: 5px;
+}
+
+.articles-midCard {
+  width: 51rem;
+}
+
+.teste-newCard {
+  width: 51rem;
+  margin: 5px;
+  padding: 7px;
+}
+.teste-VideoCard {
+  width: 35rem;
+  margin: 5px;
+  padding: 7px;
+}
+.teste-flashCard {
+  margin: 3px;
+  padding: 10px;
+}
+
+
+@media  screen  and (min-width: 1360px) {
+  .teste-smallCard {
+    position: absolute;
+    left: 47.2rem;
+  }
+}
+@media screen and (min-width: 1920px){
+  .teste-smallCard {
+    position: absolute;
+    left: 65.4rem;
+    margin: 20px;
+    padding: 4px;
+  }
+
+}
