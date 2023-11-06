@@ -1,0 +1,36 @@
+@media screen and (min-width: 1360px) {
+  .container-bigCard {
+    background-color: antiquewhite;
+    border-radius: 30px;
+    width: 35rem;
+    margin: 6px;
+    height: 38.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .bigCard-photo > img {
+    width: 32rem;
+    height: 400px;
+    margin: 25px;
+    padding: 25pxpx;
+    border-radius: 20px;
+
+  }
+   .bigCard-category > p {
+    font-size: 10px;
+    margin: 12px;
+    padding: 2px;
+   }
+
+  .bigCard-title > h1{
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+  }
+
+
+}
+
+

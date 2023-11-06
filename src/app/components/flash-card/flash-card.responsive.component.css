@@ -1,0 +1,30 @@
+@media screen and (min-width: 1360px) {
+
+}
+
+.container-flashCard  {
+  border-radius: 30px;
+  background-color: #BBD5E2;
+  width: 24.5rem;
+  height: 16.7rem;
+  padding: 8px;
+}
+
+.flashCard-title > h1 {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.flashCard-img > img {
+  margin: 2px;
+  padding: 2px;
+  width: 23rem;
+  height: 9rem;
+  border-radius: 30px;
+}
+
+.flashCard-category {
+  font-size: 12px;
+  margin: 2px;
+  padding: 2px;
+}
